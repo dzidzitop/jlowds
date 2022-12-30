@@ -67,8 +67,8 @@ public class Util
 		assert i >= 0;
 		int x = 1;
 		if (i != 0) {
-			/* It could be 31 - Integer.numberOfLeadingZeros(i) but
-			 * non-intrinsic implementation of the numberOfLeadingZeros
+			/* It could be 1 << (32 - Integer.numberOfLeadingZeros(i - 1))
+			 * but non-intrinsic implementation of the numberOfLeadingZeros
 			 * is slow. Choosing something in the middle.
 			 */
 			--i;
