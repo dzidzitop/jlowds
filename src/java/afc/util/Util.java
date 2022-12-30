@@ -23,6 +23,9 @@
    POSSIBILITY OF SUCH DAMAGE. */
 package afc.util;
 
+/**
+ * Various functions, used by data structures.
+ */
 public class Util
 {
 	private Util()
@@ -53,7 +56,6 @@ public class Util
 	 * <tr><td>1^31-1</td><td>1^31 (negative)</td></tr>
 	 * <tr><td>-1..Integer.MIN_VALUE</td><td>undefined</td></tr>
 	 * </table>
-	 * 
 	 * 
 	 * @param i the value to round up. It must be an unsigned integer.
 	 * @return the closest power of two that is equal to or
