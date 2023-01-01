@@ -1,4 +1,4 @@
-/* Copyright (c) 2022, Dźmitry Laŭčuk
+/* Copyright (c) 2022-2023, Dźmitry Laŭčuk
    All rights reserved.
 
    Redistribution and use in source and binary forms, with or without
@@ -38,8 +38,8 @@ public class Util
 	 * 32-bit integer. That is, for value inputs which ceiling power
 	 * of two would be {@code 1^31} exactly this value is returned.</p>
 	 * 
-	 * <p>For negative values the output is undefined. However, no
-	 * exception is thrown.</p>
+	 * <p>For negative values the behaviour is undefined. It could
+	 * throw an exception or silently return a meaningless result.</p>
 	 * 
 	 * <p>Examples:</p>
 	 * <table>
